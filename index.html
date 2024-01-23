@@ -36,11 +36,12 @@
         .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
-        .bg-phc::after{
+
+        .bg-phc::after {
             content: '';
             width: 100%;
             height: 100%;
-            background: rgba(19,19,24,0.50);
+            background: rgba(19, 19, 24, 0.50);
             position: absolute;
             top: 0;
             left: 0;
@@ -72,7 +73,7 @@
                             <li><a class="text-[#424247] text-base font-normal">Contact</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost pl-0 text-2xl lg:text-4xl text-[#131318] font-extrabold">Hockey<span
+                    <a class="text-2xl lg:text-4xl text-[#131318] font-extrabold">Hockey<span
                             class="text-[#FF4240]">’</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
@@ -97,9 +98,9 @@
 
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="./Images/1.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" class="btn btn-circle">❮</a>
-                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    <div class="absolute flex justify-between lg:justify-normal transform -translate-y-1/2 left-5 lg:left-10 right-5 top-1/2 lg:top-[490px]  lg:space-x-8">
+                        <a href="#slide4" class="btn btn-circle lg:bg-black lg:text-white lg:border-0 lg:text-xl">❮</a>
+                        <a href="#slide2" class="btn btn-circle lg:bg-black lg:text-white lg:border-0 lg:text-xl">❯</a>
                     </div>
                     <div class="bg-black lg:p-8 rounded-lg absolute lg:bottom-8 lg:right-8 lg:w-[502px] hidden lg:grid">
                         <h3 class="text-[#FFF] lg:text-2xl font-extrabold lg:mb-4 ">Meet all the heroes from the field
@@ -178,27 +179,57 @@
             <div class="grid grid-cols-1 gap-y-6 lg:grid-cols-4 mt-12 mb-10 lg:mb-28">
 
                 <div class="text-center">
-                    <div class="radial-progress text-red-500 mb-6" style="--value:87;" role="progressbar">87%</div>
+
+                    <div class="radial-progress text-slate-300 mb-6 relative p-5 rotate-180" style="--value:100;"
+                        role="progressbar">
+                        <span>
+                            <div class="radial-progress text-red-400 mb-6 absolute top-0 left-0 p-5" style="--value:87;"
+                                role="progressbar"><span
+                                    class="text-[#131318] text-[28px] font-extrabold rotate-180">87%</span></div>
+                        </span>
+                    </div>
+
                     <h4 class="text-[#131318] text-xl font-semibold mb-4">Prayer Facility</h4>
-                    <p class="text-[rgba(19,19,24,0.60)] text-base font-normal w-72 text-center mx-auto">Sacred space fostering team unity and spiritual strength.</p>
+                    <p class="text-[rgba(19,19,24,0.60)] text-base font-normal w-72 text-center mx-auto">Sacred space
+                        fostering team unity and spiritual strength.</p>
                 </div>
 
                 <div class="text-center">
-                    <div class="radial-progress text-green-500 mb-6" style="--value:95;" role="progressbar">95%</div>
+
+                    <div class="radial-progress text-slate-300 mb-6 relative p-5 rotate-180" style="--value:100;"
+                        role="progressbar">
+                        <span>
+                            <div class="radial-progress text-green-400 mb-6 absolute top-0 left-0 p-5" style="--value:95;"
+                                role="progressbar"><span
+                                    class="text-[#131318] text-[28px] font-extrabold rotate-180">95%</span></div>
+                        </span>
+                    </div>
+
                     <h4 class="text-[#131318] text-xl font-semibold mb-4">Experienced Coach</h4>
-                    <p class="text-[rgba(19,19,24,0.60)] text-base font-normal w-72 text-center mx-auto">Guiding excellence, shaping strategy for victorious hockey endeavors.</p>
+                    <p class="text-[rgba(19,19,24,0.60)] text-base font-normal w-72 text-center mx-auto">Guiding
+                        excellence, shaping strategy for victorious hockey endeavors.</p>
                 </div>
 
                 <div class="text-center">
-                    <div class="radial-progress text-orange-500 mb-6" style="--value:90;" role="progressbar">90%</div>
+
+                    <div class="radial-progress text-slate-300 mb-6 relative p-5 rotate-180" style="--value:100;" role="progressbar"> 
+                        <span><div class="radial-progress text-yellow-400 mb-6 absolute top-0 left-0 p-5" style="--value:90;" role="progressbar"><span class="text-[#131318] text-[28px] font-extrabold rotate-180">90%</span></div></span>
+                    </div>
+
                     <h4 class="text-[#131318] text-xl font-semibold mb-4">Senior Player</h4>
-                    <p class="text-[rgba(19,19,24,0.60)] text-base font-normal w-72 text-center mx-auto">Veterans leading with skill, wisdom, and unmatched dedication.</p>
+                    <p class="text-[rgba(19,19,24,0.60)] text-base font-normal w-72 text-center mx-auto">Veterans
+                        leading with skill, wisdom, and unmatched dedication.</p>
                 </div>
 
                 <div class="text-center">
-                    <div class="radial-progress text-blue-500 mb-6" style="--value:80;" role="progressbar">80%</div>
+
+                    <div class="radial-progress text-slate-300 mb-6 relative p-5 rotate-180" style="--value:100;" role="progressbar"> 
+                        <span><div class="radial-progress text-blue-400 mb-6 absolute top-0 left-0 p-5" style="--value:80;" role="progressbar"><span class="text-[#131318] text-[28px] font-extrabold rotate-180">80%</span></div></span>
+                    </div>
+
                     <h4 class="text-[#131318] text-xl font-semibold mb-4">Training Ground</h4>
-                    <p class="text-[rgba(19,19,24,0.60)] text-base font-normal w-72 text-center mx-auto">State-of-the-art facility, where champions are forged daily.</p>
+                    <p class="text-[rgba(19,19,24,0.60)] text-base font-normal w-72 text-center mx-auto">
+                        State-of-the-art facility, where champions are forged daily.</p>
                 </div>
 
             </div>
@@ -209,7 +240,8 @@
                 <h1 class="text-[#131318] text-[22px] lg:text-4xl font-extrabold mb-2 lg:mb-6">Program Sections
                 </h1>
                 <p class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium max-w-2xl mx-auto">Dive into the
-                    Diverse Program Sections offer specialized training, innovation workshops, and impactful community projects for comprehensive skill development.</p>
+                    Diverse Program Sections offer specialized training, innovation workshops, and impactful community
+                    projects for comprehensive skill development.</p>
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6 lg:mt-12 mb-10 lg:mb-28">
 
@@ -219,8 +251,13 @@
                     </div>
                     <div class="absolute bottom-0 left-0 p-6 lg:px-10 lg:py-12">
                         <h4 class="text-[#FFF] text-xl lg:text-4xl mb-3">Junior Program</h4>
-                        <p class="text-[#FFF] text-sm lg:text-base font-medium mb-5 lg:mb-6">An innovative program section dedicated to fostering creativity, critical thinking, and collaborative problem-solving through interactive workshops, engaging activities, and inspiring guest speakers.</p>
-                        <button class="text-[#FFF] text-sm lg:text-xl font-bold bg-[#FF4240] px-4 lg:px-5 py-2  rounded-lg">Register Now!</button>
+                        <p class="text-[#FFF] text-sm lg:text-base font-medium mb-5 lg:mb-6">An innovative program
+                            section dedicated to fostering creativity, critical thinking, and collaborative
+                            problem-solving through interactive workshops, engaging activities, and inspiring guest
+                            speakers.</p>
+                        <button
+                            class="text-[#FFF] text-sm lg:text-xl font-bold bg-[#FF4240] px-4 lg:px-5 py-2  rounded-lg">Register
+                            Now!</button>
                     </div>
                 </div>
 
@@ -230,8 +267,13 @@
                     </div>
                     <div class="absolute bottom-0 left-0 p-6 lg:px-10 lg:py-12">
                         <h4 class="text-[#FFF] text-xl lg:text-4xl mb-3">Teenager Program</h4>
-                        <p class="text-[#FFF] text-sm lg:text-base font-medium mb-5 lg:mb-6">Focused on skill development, Teenager Program offers specialized training, mentorship, and hands-on experiences led by industry experts, preparing participants for real-world challenges and opportunities.</p>
-                        <button class="text-[#FFF] text-sm lg:text-xl font-bold bg-[#FF4240] px-4 lg:px-5 py-2 rounded-lg">Register Now!</button>
+                        <p class="text-[#FFF] text-sm lg:text-base font-medium mb-5 lg:mb-6">Focused on skill
+                            development, Teenager Program offers specialized training, mentorship, and hands-on
+                            experiences led by industry experts, preparing participants for real-world challenges and
+                            opportunities.</p>
+                        <button
+                            class="text-[#FFF] text-sm lg:text-xl font-bold bg-[#FF4240] px-4 lg:px-5 py-2 rounded-lg">Register
+                            Now!</button>
                     </div>
                 </div>
 
@@ -241,14 +283,19 @@
                     </div>
                     <div class="absolute bottom-0 left-0 p-6 lg:px-10 lg:py-12">
                         <h4 class="text-[#FFF] text-xl lg:text-4xl mb-3">Professional Program</h4>
-                        <p class="text-[#FFF] text-sm lg:text-base font-medium mb-5 lg:mb-6 lg:w-1/2">Professional Program section emphasizes community engagement, encouraging participants to apply their skills and knowledge in meaningful projects, creating a positive impact in society and building a sense of social responsibility.</p>
-                        <button class="text-[#FFF] text-sm lg:text-xl font-bold bg-[#FF4240] px-4 lg:px-5 py-2 rounded-lg">Register Now!</button>
+                        <p class="text-[#FFF] text-sm lg:text-base font-medium mb-5 lg:mb-6 lg:w-1/2">Professional
+                            Program section emphasizes community engagement, encouraging participants to apply their
+                            skills and knowledge in meaningful projects, creating a positive impact in society and
+                            building a sense of social responsibility.</p>
+                        <button
+                            class="text-[#FFF] text-sm lg:text-xl font-bold bg-[#FF4240] px-4 lg:px-5 py-2 rounded-lg">Register
+                            Now!</button>
                     </div>
                 </div>
             </div>
         </section>
         <!-- our new product section  -->
-        <section class="mt-10 mx-5 lg:mx-0 border-b lg:border-b-2 border-[rgba(19,19,24,0.20)] border-dashed">
+        <section class="mb-10 mx-5 lg:mx-0 border-b lg:border-b-2 border-[rgba(19,19,24,0.20)] border-dashed">
             <div class="text-center py-6 lg:py-10 border-b lg:border-b-2 border-[rgba(19,19,24,0.20)] border-dashed">
                 <h1 class="text-[#131318] text-[22px] lg:text-4xl font-extrabold mb-2 lg:mb-6">Our New Products
                 </h1>
@@ -260,59 +307,74 @@
             <div class="grid lg:grid-cols-2 gap-6 mt-6 lg:mt-12 mb-10 lg:mb-28">
 
                 <!-- card 1 -->
-                <div class="flex flex-col lg:flex-row lg:space-x-5 p-6 border rounded-xl">
+                <div class="flex flex-col lg:flex-row lg:space-x-5 p-6 border rounded-2xl">
                     <div>
                         <img class="h-full w-full" src="./Images/5.png" alt="">
                     </div>
                     <div>
                         <div class="space-x-4 mt-6 lg:mt-0">
-                            <span><i class="fa-solid fa-star text-orange-400 text-xl"></i> <span class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">5.0</span></span>
-                            <span><i class="fa-regular fa-eye text-[rgba(19,19,24,0.50)] text-xl"></i> <span class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">20</span></span>
-                            <span><i class="fa-regular fa-heart text-[rgba(19,19,24,0.50)] text-xl"></i> <span class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2">200</span></span>
+                            <span><i class="fa-solid fa-star text-orange-400 text-xl"></i> <span
+                                    class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">5.0</span></span>
+                            <span><i class="fa-regular fa-eye text-[rgba(19,19,24,0.50)] text-xl"></i> <span
+                                    class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">20</span></span>
+                            <span><i class="fa-regular fa-heart text-[rgba(19,19,24,0.50)] text-xl"></i> <span
+                                    class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2">200</span></span>
                         </div>
                         <div>
-                            <h4 class="text-[#131318] text-xl font-extrabold my-3">Sport Jacket For Men</h4>
-                            <p class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium mb-4 lg:w-4/5">Versatile men's sport jacket for style and performance in any activity </p>
+                            <h4 class="text-[#131318] text-xl font-extrabold my-3">Sports Jacket For Men</h4>
+                            <p class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium mb-4 lg:w-4/5">
+                                Versatile men's sport jacket for style and performance in any activity </p>
                         </div>
                         <div class="flex flex-col lg:flex-row">
                             <span class="text-[#FF4240] text-xl font-extrabold ">Price - $22.00</span>
-                            <span class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium"><i class="fa-solid fa-cart-shopping text-xl mt-4 lg:mt-0 lg:ml-5 mr-2"></i>Delivery Fee : Free</span>
+                            <span class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium"><i
+                                    class="fa-solid fa-cart-shopping text-xl mt-4 lg:mt-0 lg:ml-5 mr-2"></i>Delivery Fee
+                                : Free</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- card 2 -->
-                <div class="flex flex-col lg:flex-row lg:space-x-5 p-6 border rounded-xl">
+                <div class="flex flex-col lg:flex-row lg:space-x-5 p-6 border rounded-2xl">
                     <div>
                         <img class="h-full w-full" src="./Images/6.png" alt="">
                     </div>
                     <div>
                         <div class="space-x-4 mt-6 lg:mt-0">
-                            <span><i class="fa-solid fa-star text-orange-400 text-xl"></i> <span class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">5.0</span></span>
-                            <span><i class="fa-regular fa-eye text-[rgba(19,19,24,0.50)] text-xl"></i> <span class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">20</span></span>
-                            <span><i class="fa-regular fa-heart text-[rgba(19,19,24,0.50)] text-xl"></i> <span class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2">200</span></span>
+                            <span><i class="fa-solid fa-star text-orange-400 text-xl"></i> <span
+                                    class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">5.0</span></span>
+                            <span><i class="fa-regular fa-eye text-[rgba(19,19,24,0.50)] text-xl"></i> <span
+                                    class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">20</span></span>
+                            <span><i class="fa-regular fa-heart text-[rgba(19,19,24,0.50)] text-xl"></i> <span
+                                    class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2">200</span></span>
                         </div>
                         <div>
                             <h4 class="text-[#131318] text-xl font-extrabold my-3">Rainbow Football</h4>
-                            <p class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium mb-4 lg:w-4/5">Vibrant rainbow football, celebrating diversity and unity on the field of play. </p>
+                            <p class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium mb-4 lg:w-4/5">Vibrant
+                                rainbow football, celebrating diversity and unity on the field of play. </p>
                         </div>
                         <div class="flex flex-col lg:flex-row">
                             <span class="text-[#FF4240] text-xl font-extrabold ">Price - $22.00</span>
-                            <span class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium"><i class="fa-solid fa-cart-shopping text-xl mt-4 lg:mt-0 lg:ml-5 mr-2"></i>Delivery Fee : Free</span>
+                            <span class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium"><i
+                                    class="fa-solid fa-cart-shopping text-xl mt-4 lg:mt-0 lg:ml-5 mr-2"></i>Delivery Fee
+                                : Free</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- card 3 -->
-                <div class="flex flex-col lg:flex-row lg:space-x-5 p-6 border rounded-xl">
+                <div class="flex flex-col lg:flex-row lg:space-x-5 p-6 border rounded-2xl">
                     <div>
                         <img class="h-full w-full" src="./Images/7.png" alt="">
                     </div>
                     <div>
                         <div class="space-x-4 mt-6 lg:mt-0">
-                            <span><i class="fa-solid fa-star text-orange-400 text-xl"></i> <span class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">5.0</span></span>
-                            <span><i class="fa-regular fa-eye text-[rgba(19,19,24,0.50)] text-xl"></i> <span class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">20</span></span>
-                            <span><i class="fa-regular fa-heart text-[rgba(19,19,24,0.50)] text-xl"></i> <span class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2">200</span></span>
+                            <span><i class="fa-solid fa-star text-orange-400 text-xl"></i> <span
+                                    class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">5.0</span></span>
+                            <span><i class="fa-regular fa-eye text-[rgba(19,19,24,0.50)] text-xl"></i> <span
+                                    class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">20</span></span>
+                            <span><i class="fa-regular fa-heart text-[rgba(19,19,24,0.50)] text-xl"></i> <span
+                                    class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2">200</span></span>
                         </div>
                         <div>
                             <h4 class="text-[#131318] text-xl font-extrabold my-3">Cap For Hockeys</h4>
@@ -321,73 +383,94 @@
                         </div>
                         <div class="flex flex-col lg:flex-row">
                             <span class="text-[#FF4240] text-xl font-extrabold ">Price - $22.00</span>
-                            <span class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium"><i class="fa-solid fa-cart-shopping text-xl mt-4 lg:mt-0 lg:ml-5 mr-2"></i>Delivery Fee : Free</span>
+                            <span class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium"><i
+                                    class="fa-solid fa-cart-shopping text-xl mt-4 lg:mt-0 lg:ml-5 mr-2"></i>Delivery Fee
+                                : Free</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- card 4 -->
-                <div class="flex flex-col lg:flex-row lg:space-x-5 p-6 border rounded-xl">
+                <div class="flex flex-col lg:flex-row lg:space-x-5 p-6 border rounded-2xl">
                     <div>
                         <img class="h-full w-full lg:w-56" src="./Images/8.png" alt="">
                     </div>
                     <div>
                         <div class="space-x-4 mt-6 lg:mt-0">
-                            <span><i class="fa-solid fa-star text-orange-400 text-xl"></i> <span class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">5.0</span></span>
-                            <span><i class="fa-regular fa-eye text-[rgba(19,19,24,0.50)] text-xl"></i> <span class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">20</span></span>
-                            <span><i class="fa-regular fa-heart text-[rgba(19,19,24,0.50)] text-xl"></i> <span class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2">200</span></span>
+                            <span><i class="fa-solid fa-star text-orange-400 text-xl"></i> <span
+                                    class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">5.0</span></span>
+                            <span><i class="fa-regular fa-eye text-[rgba(19,19,24,0.50)] text-xl"></i> <span
+                                    class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">20</span></span>
+                            <span><i class="fa-regular fa-heart text-[rgba(19,19,24,0.50)] text-xl"></i> <span
+                                    class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2">200</span></span>
                         </div>
                         <div>
-                            <h4 class="text-[#131318] text-xl font-extrabold my-3">Jersey for Football</h4>
-                            <p class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium mb-4 lg:w-4/5">Sleek football jersey, designed for optimal performance and iconic team representation. </p>
+                            <h4 class="text-[#131318] text-xl font-extrabold my-3">Sports Jersey For Men</h4>
+                            <p class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium mb-4 lg:w-4/5">Sleek
+                                football jersey, designed for optimal performance and iconic team representation. </p>
                         </div>
                         <div class="flex flex-col lg:flex-row">
                             <span class="text-[#FF4240] text-xl font-extrabold ">Price - $22.00</span>
-                            <span class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium"><i class="fa-solid fa-cart-shopping text-xl mt-4 lg:mt-0 lg:ml-5 mr-2"></i>Delivery Fee : Free</span>
+                            <span class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium"><i
+                                    class="fa-solid fa-cart-shopping text-xl mt-4 lg:mt-0 lg:ml-5 mr-2"></i>Delivery Fee
+                                : Free</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- card 5 -->
-                <div class="flex flex-col lg:flex-row lg:space-x-5 p-6 border rounded-xl">
+                <div class="flex flex-col lg:flex-row lg:space-x-5 p-6 border rounded-2xl">
                     <div>
                         <img class="h-full w-full lg:w-56" src="./Images/9.png" alt="">
                     </div>
                     <div>
                         <div class="space-x-4 mt-6 lg:mt-0">
-                            <span><i class="fa-solid fa-star text-orange-400 text-xl"></i> <span class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">5.0</span></span>
-                            <span><i class="fa-regular fa-eye text-[rgba(19,19,24,0.50)] text-xl"></i> <span class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">20</span></span>
-                            <span><i class="fa-regular fa-heart text-[rgba(19,19,24,0.50)] text-xl"></i> <span class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2">200</span></span>
+                            <span><i class="fa-solid fa-star text-orange-400 text-xl"></i> <span
+                                    class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">5.0</span></span>
+                            <span><i class="fa-regular fa-eye text-[rgba(19,19,24,0.50)] text-xl"></i> <span
+                                    class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">20</span></span>
+                            <span><i class="fa-regular fa-heart text-[rgba(19,19,24,0.50)] text-xl"></i> <span
+                                    class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2">200</span></span>
                         </div>
                         <div>
                             <h4 class="text-[#131318] text-xl font-extrabold my-3">Cricket Helmet</h4>
-                            <p class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium mb-4 lg:w-4/5">Protective cricket helmet, ensuring safety with advanced design for confident batting. </p>
+                            <p class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium mb-4 lg:w-4/5">
+                                Protective cricket helmet, ensuring safety with advanced design for confident batting.
+                            </p>
                         </div>
                         <div class="flex flex-col lg:flex-row">
                             <span class="text-[#FF4240] text-xl font-extrabold ">Price - $22.00</span>
-                            <span class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium"><i class="fa-solid fa-cart-shopping text-xl mt-4 lg:mt-0 lg:ml-5 mr-2"></i>Delivery Fee : Free</span>
+                            <span class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium"><i
+                                    class="fa-solid fa-cart-shopping text-xl mt-4 lg:mt-0 lg:ml-5 mr-2"></i>Delivery Fee
+                                : Free</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- card 6 -->
-                <div class="flex flex-col lg:flex-row lg:space-x-5 p-6 border rounded-xl">
+                <div class="flex flex-col lg:flex-row lg:space-x-5 p-6 border rounded-2xl">
                     <div>
                         <img class="h-full w-full" src="./Images/10.png" alt="">
                     </div>
                     <div>
                         <div class="space-x-4 mt-6 lg:mt-0">
-                            <span><i class="fa-solid fa-star text-orange-400 text-xl"></i> <span class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">5.0</span></span>
-                            <span><i class="fa-regular fa-eye text-[rgba(19,19,24,0.50)] text-xl"></i> <span class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">20</span></span>
-                            <span><i class="fa-regular fa-heart text-[rgba(19,19,24,0.50)] text-xl"></i> <span class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2">200</span></span>
+                            <span><i class="fa-solid fa-star text-orange-400 text-xl"></i> <span
+                                    class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">5.0</span></span>
+                            <span><i class="fa-regular fa-eye text-[rgba(19,19,24,0.50)] text-xl"></i> <span
+                                    class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2 ">20</span></span>
+                            <span><i class="fa-regular fa-heart text-[rgba(19,19,24,0.50)] text-xl"></i> <span
+                                    class="text-[rgba(19,19,24,0.50)] text-base font-medium ml-2">200</span></span>
                         </div>
                         <div>
                             <h4 class="text-[#131318] text-xl font-extrabold my-3">Black & White Football</h4>
-                            <p class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium mb-4 lg:w-4/5">Classic black and white football, a timeless design for a powerful game. </p>
+                            <p class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium mb-4 lg:w-4/5">Classic
+                                black and white football, a timeless design for a powerful game. </p>
                         </div>
                         <div class="flex flex-col lg:flex-row">
                             <span class="text-[#FF4240] text-xl font-extrabold ">Price - $22.00</span>
-                            <span class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium"><i class="fa-solid fa-cart-shopping text-xl mt-4 lg:mt-0 lg:ml-5 mr-2"></i>Delivery Fee : Free</span>
+                            <span class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium"><i
+                                    class="fa-solid fa-cart-shopping text-xl mt-4 lg:mt-0 lg:ml-5 mr-2"></i>Delivery Fee
+                                : Free</span>
                         </div>
                     </div>
                 </div>
@@ -401,80 +484,94 @@
                 <h1 class="text-[#131318] text-[22px] lg:text-4xl font-extrabold mb-2 lg:mb-6">Clients Question
                 </h1>
                 <p class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium max-w-2xl mx-auto">
-                    In our Clients Question section, discover answers to hockey queries, fostering transparency and satisfaction in our services.</p>
+                    In our Clients Question section, discover answers to hockey queries, fostering transparency and
+                    satisfaction in our services.</p>
             </div>
-            <div class="flex flex-col lg:flex-row mt-6 lg:mt-12 lg:gap-x-10 border p-6 lg:p-8 rounded-3xl mb-10 lg:mb-28">
+            <div
+                class="flex flex-col lg:flex-row mt-6 lg:mt-12 lg:gap-x-10 border p-6 lg:p-8 rounded-3xl mb-10 lg:mb-28">
                 <div>
                     <img src="./Images/11.png" alt="">
                 </div>
                 <div class="flex-1">
-                    
+
                     <div class="collapse collapse-plus border-b-2 rounded-none">
-                        <input type="radio" name="my-accordion-3" checked="checked" /> 
+                        <input type="radio" name="my-accordion-3" checked="checked" />
                         <div class="collapse-title text-xl font-bold text-[#131318] lg:mb-3">
                             Our Equipment
                         </div>
-                        <div class="collapse-content"> 
-                          <p class="text-[rgba(19,19,24,0.60)] text-base font-normal lg:w-4/5">Explore queries on top-notch hockey gear, ensuring your equipment meets performance standards for an enhanced playing experience.</p>
+                        <div class="collapse-content">
+                            <p class="text-[rgba(19,19,24,0.60)] text-base font-normal lg:w-4/5 lg:mb-3">Explore queries on
+                                top-notch hockey gear, ensuring your equipment meets performance standards for an
+                                enhanced playing experience.</p>
                         </div>
-                      </div>
+                    </div>
 
-                      <div class="collapse collapse-plus border-b-2  rounded-none">
-                        <input type="radio" name="my-accordion-3" checked="checked" /> 
-                        <div class="collapse-title text-xl font-bold text-[#131318] lg:my-3">
-                            Our Equipment
-                        </div>
-                        <div class="collapse-content"> 
-                          <p class="text-[rgba(19,19,24,0.60)] text-base font-normal lg:w-4/5">Explore queries on top-notch hockey gear, ensuring your equipment meets performance standards for an enhanced playing experience.</p>
-                        </div>
-                      </div>
-
-                      
-                    <div class="collapse collapse-plus border-b-2 rounded-none">
-                        <input type="radio" name="my-accordion-3" checked="checked" /> 
-                        <div class="collapse-title text-xl font-bold text-[#131318] lg:my-3">
-                            Our Equipment
-                        </div>
-                        <div class="collapse-content"> 
-                          <p class="text-[rgba(19,19,24,0.60)] text-base font-normal lg:w-4/5 ">Explore queries on top-notch hockey gear, ensuring your equipment meets performance standards for an enhanced playing experience.</p>
-                        </div>
-                      </div>
-                      
                     <div class="collapse collapse-plus border-b-2  rounded-none">
-                        <input type="radio" name="my-accordion-3" checked="checked" /> 
+                        <input type="radio" name="my-accordion-3"/>
                         <div class="collapse-title text-xl font-bold text-[#131318] lg:my-3">
-                            Our Equipment
+                            Hockey Training
                         </div>
-                        <div class="collapse-content"> 
-                          <p class="text-[rgba(19,19,24,0.60)] text-base font-normal lg:w-4/5">Explore queries on top-notch hockey gear, ensuring your equipment meets performance standards for an enhanced playing experience.</p>
+                        <div class="collapse-content">
+                            <p class="text-[rgba(19,19,24,0.60)] text-base font-normal lg:w-4/5 lg:mb-3">Get answers about our
+                                hockey training programs, designed for skill refinement and player development at every
+                                level.</p>
                         </div>
-                      </div>
-                      
+                    </div>
+
+
+                    <div class="collapse collapse-plus border-b-2 rounded-none">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold text-[#131318] lg:my-3">
+                            Private Lessons
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-[rgba(19,19,24,0.60)] text-base font-normal lg:w-4/5 lg:mb-3">Discover information
+                                on personalized hockey lessons, tailored to individual needs for accelerated skill
+                                improvement and game mastery.</p>
+                        </div>
+                    </div>
+
+                    <div class="collapse collapse-plus border-b-2  rounded-none">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold text-[#131318] lg:my-3">
+                            Ski Touring
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-[rgba(19,19,24,0.60)] text-base font-normal lg:w-4/5 lg:mb-3">Explore Ski Touring
+                                inquiries, where our experts address your questions on exciting winter adventures and
+                                sports equipment.</p>
+                        </div>
+                    </div>
+
                     <div class="collapse collapse-plus rounded-none ">
-                        <input type="radio" name="my-accordion-3" checked="checked" /> 
+                        <input type="radio" name="my-accordion-3" />
                         <div class="collapse-title text-xl font-bold text-[#131318] lg:my-3">
-                            Our Equipment
+                            Booking
                         </div>
-                        <div class="collapse-content"> 
-                          <p class="text-[rgba(19,19,24,0.60)] text-base font-normal lg:w-4/5">Explore queries on top-notch hockey gear, ensuring your equipment meets performance standards for an enhanced playing experience.</p>
+                        <div class="collapse-content">
+                            <p class="text-[rgba(19,19,24,0.60)] text-base font-normal lg:w-4/5">Navigate the booking
+                                process effortlessly with answers to commonly asked questions, ensuring a seamless
+                                experience for your hockey activities.</p>
                         </div>
-                      </div>
-                      
+                    </div>
+
                 </div>
             </div>
-           
+
         </section>
         <!-- get in touch section  -->
         <section class="mx-5 lg:mx-0 ">
             <div class="text-center py-6 lg:py-10 border-b lg:border-b-2 border-[rgba(19,19,24,0.20)] border-dashed">
                 <h1 class="text-[#131318] text-[22px] lg:text-4xl font-extrabold mb-2 lg:mb-6">Get In Touch
                 </h1>
-                <p class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium max-w-2xl mx-auto">Connect seamlessly with our hockey community through the section, facilitating inquiries, feedback, and personalized assistance for an enriched experience.</p>
+                <p class="text-[rgba(19,19,24,0.60)] text-sm lg:text-base font-medium max-w-2xl mx-auto">Connect
+                    seamlessly with our hockey community through the section, facilitating inquiries, feedback, and
+                    personalized assistance for an enriched experience.</p>
             </div>
 
             <div class="flex flex-col lg:flex-row gap-x-6 mt-6 lg:mt-12">
                 <!-- card container  -->
-                <div class="space-y-6 p-6 lg:p-12 border rounded-2xl">
+                <div class="space-y-6 lg:space-y-14 p-6 lg:p-12 border rounded-2xl">
 
                     <!-- card 1 -->
                     <div class="bg-[rgba(188,237,109,0.10)] p-6 lg:p-8 pb-12 rounded-2xl">
@@ -491,34 +588,47 @@
                     <!-- card 3 -->
                     <div class="bg-[rgba(98,156,243,0.10)] p-6 lg:p-8 pb-12 rounded-2xl">
                         <img class="mb-6" src="./Images/Group 1171275321.png" alt="">
-                        <p class="text-[rgba(19,19,24,0.40)] text-base font-normal mb-3">Location :  </p>
+                        <p class="text-[rgba(19,19,24,0.40)] text-base font-normal mb-3">Location : </p>
                         <h4 class="text-[#131318] text-sm lg:text-xl font-extrabold">152/1 Mohakhali Wireless Gate</h4>
                     </div>
 
-                   
+
 
                 </div>
                 <!-- input container  -->
-                <div class="flex-1">
+                <div class="flex-1 mt-6 lg:mt-0">
                     <form action="#">
                         <div class="grid gap-5 lg:gap-6 lg:grid-cols-2">
                             <label for="name"><span class="text-[#131318] text-xl font-bold">Your Name</span>
-                                <input type="text" placeholder="Enter your full name" class="input input-bordered bg-[rgba(19,19,24,0.03)] h-16  w-full mt-4 " id="name" />
+                                <input type="text" placeholder="Enter your full name"
+                                    class="input input-bordered bg-[rgba(19,19,24,0.03)] h-16  w-full mt-4 "
+                                    id="name" />
                             </label>
                             <label for="email"><span class="text-[#131318] text-xl font-bold">Your Email</span>
-                                <input type="text" placeholder="Enter your email" class="input input-bordered bg-[rgba(19,19,24,0.03)] h-16  w-full mt-4 " id="email" />
+                                <input type="text" placeholder="Enter your email"
+                                    class="input input-bordered bg-[rgba(19,19,24,0.03)] h-16  w-full mt-4 "
+                                    id="email" />
                             </label>
                             <label for="subject"><span class="text-[#131318] text-xl font-bold">Subject</span>
-                                <input type="text" placeholder="Enter your subject" class="input input-bordered bg-[rgba(19,19,24,0.03)] h-16  w-full mt-4 " id="subject" />
+                                <input type="text" placeholder="Enter your subject"
+                                    class="input input-bordered bg-[rgba(19,19,24,0.03)] h-16  w-full mt-4 "
+                                    id="subject" />
                             </label>
                             <label for="number"><span class="text-[#131318] text-xl font-bold">Phone Number</span>
-                                <input type="text" placeholder="Enter your phone number" class="input input-bordered bg-[rgba(19,19,24,0.03)] h-16  w-full mt-4 " id="number" />
+                                <input type="text" placeholder="Enter your phone number"
+                                    class="input input-bordered bg-[rgba(19,19,24,0.03)] h-16  w-full mt-4 "
+                                    id="number" />
                             </label>
-    
-                            <label for="message" class="col-span-1 lg:col-span-2"><span class="text-[#131318] text-xl font-bold">Message</span>
-                                <textarea class="textarea textarea-bordered w-full h-96 mt-4 bg-[rgba(19,19,24,0.03)]" placeholder="Write your message"></textarea>
+
+                            <label for="message" class="col-span-1 lg:col-span-2"><span
+                                    class="text-[#131318] text-xl font-bold">Message</span>
+                                <textarea
+                                    class="textarea textarea-bordered w-full h-52 lg:h-96 mt-4 bg-[rgba(19,19,24,0.03)]"
+                                    placeholder="Write your message" id="message"></textarea>
                             </label>
-                            <input class="col-span-1 lg:col-span-2 text-xl font-bold py-4 px-6 bg-[#FF4240] text-white rounded-xl mt-6 lg:mt-8" type="button" value="Send Message">                           
+                            <input
+                                class="col-span-1 lg:col-span-2 text-xl font-bold py-4 px-6 bg-[#FF4240] text-white rounded-xl mt-6 lg:mt-8"
+                                type="button" value="Send Message">
                         </div>
                     </form>
                 </div>
@@ -526,11 +636,62 @@
             </div>
 
         </section>
-        <section class="mt-10"></section>
+        <!-- social media section  -->
+        <section class="mx-5 my-10 lg:mt-12 lg:mb-28">
+            <div class="bg-[rgba(19,19,24,0.03)] py-9 rounded-xl flex justify-center text-center">
+                <div>
+                    <h4 class="text-[#131318] text-2xl font-extrabold mb-6">Social Media</h4>
+                    <div class="space-x-10 text-xl">
+                        <span><i class="fa-brands fa-twitter "></i></span>
+                        <span><i class="fa-brands fa-facebook-f"></i></span>
+                        <span><i class="fa-brands fa-instagram"></i></span>
+                        <span><i class="fa-brands fa-github"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
-    <footer>
-
+    <!-- footer  -->
+    <footer class="bg-[#131318] lg:pb-36 lg:pt-28 ">
+        <div class="container px-5 lg:px-0 mx-auto ">
+            <div class="grid grid-cols-6 lg:grid-cols-5 text-center lg:text-left">
+                <div class="col-span-6 lg:col-span-2 my-10 lg:my-0">
+                    <h4 class="text-[#FFF] text-[28px] font-extrabold mb-5 ">Get In Touch</h4>
+                    <p class="text-[rgba(255,255,255,0.60)] text-base font-medium mb-6 max-w-sm">Connect with us easily
+                        through the Email or Phone number, ensuring prompt responses to your inquiries and feedback.</p>
+                    <div class="mb-5"><span><i
+                                class="fa-regular fa-envelope text-[#FF4240] mr-4 text-xl "></i></span><span
+                            class="text-[rgba(255,255,255,0.60)] text-base font-medium mb-5">hockeys@support.com</span>
+                    </div>
+                    <div><span><i class="fa-solid fa-phone text-[#FF4240] mr-4 text-xl"></i></span><span
+                            class="text-[rgba(255,255,255,0.60)] text-base font-medium">(+62) 123-321-543</span></div>
+                </div>
+                <div class="col-span-3 lg:col-span-1 text-center lg:text-left mb-10 lg:mb-0">
+                    <h4 class="text-[#FFF] text-[18px] font-bold mb-12">Company</h4>
+                    <p class="text-[rgba(255,255,255,0.60)] text-base font-medium mb-5">About us</p>
+                    <p class="text-[rgba(255,255,255,0.60)] text-base font-medium mb-5">Leadership</p>
+                    <p class="text-[rgba(255,255,255,0.60)] text-base font-medium mb-5">Careers</p>
+                    <p class="text-[rgba(255,255,255,0.60)] text-base font-medium mb-5">News & Article</p>
+                    <p class="text-[rgba(255,255,255,0.60)] text-base font-medium mb-5">Legal Notice</p>
+                </div>
+                <div class="col-span-3 lg:col-span-1 text-center lg:text-left">
+                    <h4 class="text-[#FFF] text-[18px] font-bold mb-12">Support</h4>
+                    <p class="text-[rgba(255,255,255,0.60)] text-base font-medium mb-5">Help Center</p>
+                    <p class="text-[rgba(255,255,255,0.60)] text-base font-medium mb-5">FAQ</p>
+                    <p class="text-[rgba(255,255,255,0.60)] text-base font-medium mb-5">Ticket Support</p>
+                    <p class="text-[rgba(255,255,255,0.60)] text-base font-medium mb-5">Contact Us</p>
+                </div>
+                <div class="col-span-6 lg:col-span-1 text-center lg:text-left mb-10 lg:mb-0">
+                    <h4 class="text-[#FFF] text-[18px] font-bold mb-12">Services</h4>
+                    <p class="text-[rgba(255,255,255,0.60)] text-base font-medium mb-5">Academy</p>
+                    <p class="text-[rgba(255,255,255,0.60)] text-base font-medium mb-5">Group Lesson</p>
+                    <p class="text-[rgba(255,255,255,0.60)] text-base font-medium mb-5">Private Lesson</p>
+                    <p class="text-[rgba(255,255,255,0.60)] text-base font-medium mb-5">Hockeys for kids</p>
+                    <p class="text-[rgba(255,255,255,0.60)] text-base font-medium mb-5">Hockeys for Adult</p>
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>
